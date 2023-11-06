@@ -27,3 +27,6 @@ Exeguard is ideal for:
 - **Commercial Situations:** Streamline and secure application execution in business environments.
 - **Workstations:** Manage and monitor application executions on individual workstations.
 - **Servers:** Ensure secure application running
+
+### Why no `develop` branch?
+This repo relies on submodules which refer to the *main* branches of other repos in the organisation. This means that all the changes brought into this repo should already be stable and ready to go through CI.
